@@ -1,0 +1,59 @@
+.container.blank-page{
+	width: 100%;
+	padding: 0% 13%;
+}
+.datatable-dept-with-info-list{
+	width: 1384px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-top: -1px;
+}
+.datatable-dept-with-info-list td{
+	border: solid 1px #c7c7c7;
+	padding: 0px 10px;
+}
+.datatable-dept-with-info-list th{
+	text-align: center;
+	border: solid 1px #c7c7c7;
+	padding: 10px;
+}
+
+.datatable-dept-with-info-list .td-content-black-centered{
+	font-size:13px;
+	color: #182129;
+	text-align:center;
+	line-height:24px;
+}
+.datatable-dept-with-info-list .td-content-blue-right{
+	font-size:13px;
+	color: #065ec2;
+	text-align:right;
+	line-height:24px;
+}
+.datatable-dept-with-info-list .td-content-black-right{
+	font-size:13px;
+	color: #182129;
+	text-align:right;
+	line-height:24px;
+}
+.levl-up-btn{
+	width:200px;
+	font-family:'malgun';
+	font-size:14px;
+	color:#7d7d7d;
+	background-color: #f4f7f9;
+	border: solid 1px #c7c7c7;
+	cursor: pointer;
+}
+.levl-up-btn:hover{
+	color:#f4f7f9;
+	background-color: #065ec3;
+	border: solid 1px #065ec3;
+}
+.sweet-modal-prompt input{
+	text-align: left;
+}
+.sweet-modal-prompt input{
+	padding-left: 6px;
+	font-weight: initial;
+}

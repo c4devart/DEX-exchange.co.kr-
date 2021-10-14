@@ -1,0 +1,27 @@
+#tableCoinList th{
+	font-weight: bold;
+	text-align:center;
+}
+#tableCoinList td, th{
+	font-size: 12px;
+}
+#tableCoinList td .form-control{
+	font-size: 12px;
+}
+.panel-body{
+	overflow-x: auto;
+}
+.button_group{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#submit_error_alert_content{
+	display: none;
+}
+#submit_success_alert_content{
+	display: none;
+}
+.sweet-modal-prompt input{
+	padding-left: 6px;
+	text-align:left;
+}

@@ -1,0 +1,214 @@
+.coinsky-page{
+	min-height:1050px;
+}
+#submit_error_alert_content{
+	display: none;
+}
+#profile_img_content{
+	text-align: center;
+}
+#profile_img_content img{
+	height: 320px;
+	max-width: 100%;
+}
+#profile_submit_error_alert_content{
+	display: none;
+}
+.page-content-panel{
+	margin-top: 30px;
+}
+.tab-content-body{
+	background-color: #f0f6fa;
+	border-color: #dae8f1;
+}
+.tab-content-default-sub{
+	border: none;
+	background-color: #f0f6fa;
+}
+.tab-content-body-sub{
+	line-height: 30px;
+	border-bottom: solid 1px #dddddd;
+}
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 54px;
+  height: 27px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+@media screen and (min-width: 1200px) {
+    #tab-close{
+      height: 800px;
+    }
+}
+.tab-pane{
+	min-height:400px;
+}
+.nav.nav-tabs li a{
+  outline: none;
+}
+.tab-basic{
+	width: 33.33%;
+}
+.height-626{
+	height: 626px;
+}
+.height-319{
+	height: 319px;
+}
+.height-816{
+	height: 816px;
+}
+
+.change-password-form{
+  width: 400px;
+  height: 25px;
+  padding-left: 64px;
+  line-height: 25px;
+  font-size: 12px;
+  font-family: 'malgun';
+  background-repeat: no-repeat;
+  background-position: 39px 5px;
+}
+.confirm-close{
+  width: 600px;
+  height: 25px;
+  padding-left: 64px;
+  line-height: 25px;
+  font-size: 12px;
+  font-family: 'malgun';
+  background-repeat: no-repeat;
+  background-position: 39px 5px;
+}
+.change-password-form.active{
+  color: #182129;
+  background-image: url('../image/condition-on.png');
+}
+.change-password-form.passive{
+  color: #7d7d7d;
+  background-image: url('../image/condition-off.png');
+}
+.confirm-close.active{
+  color: #182129;
+  background-image: url('../image/condition-on.png');
+}
+.confirm-close.passive{
+  color: #7d7d7d;
+  background-image: url('../image/condition-off.png');
+}
+.confirm-close-footer{
+  width: 600px;
+  height: 39px;
+  font-family: 'malgun';
+  font-size: 12px;
+  color: #7d7d7d;
+  line-height: 39px;
+  padding-left: 39px;
+}
+.confirm-close-footer{
+  width: 640px;
+  height: 25px;
+  font-family: 'malgun';
+  font-size: 12px;
+  color: #7d7d7d;
+  line-height: 39px;
+  padding-left: 39px;
+}
+.change-password-form-conditions-footer{
+  width: 400px;
+  height: 39px;
+  font-family: 'malgun';
+  font-size: 12px;
+  color: #7d7d7d;
+  line-height: 39px;
+  padding-left: 39px;
+}
+.register-form-timer-count{
+  font-family: 'malgun';
+  font-size: 13px;
+  color: #cc0000;
+  position: absolute;
+  margin-left: -40px;
+}
+.register-form-accept-sub-3{
+  width: 400px;
+  height: 25px;
+  line-height: 25px;
+  font-family: 'malgun';
+  font-size: 14px;
+  color: #7d7d7d;
+  margin-top: 10px;
+}
+.register-form-accept-sub-3-left{
+  width: 16px;
+  height: 16px;
+  margin: 4.5px 9px 4.5px 0px;
+}
+.img-check-on, .img-check-off:hover{
+  background-image: url('../image/check-on.png');
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.img-check-off, .img-check-on:hover{
+  background-image: url('../image/check-off.png');
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.register-form-accept-sub-3-right{
+  width: 375px;
+}

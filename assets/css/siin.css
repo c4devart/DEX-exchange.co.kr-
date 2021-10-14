@@ -1,0 +1,112 @@
+body{
+	background-color: #ffffff;
+}
+.coinsky-page{
+	min-height: 500px !important;
+}
+.login-form{
+	width: 500px;
+	height: 468px;
+	background-color: #f4f7f9;
+	margin: 60px 450px 150px 450px;
+	-webkit-box-shadow: 4px 4px 20px 0px rgba(161,161,161,1);
+	-moz-box-shadow: 4px 4px 20px 0px rgba(161,161,161,1);
+	box-shadow: 4px 4px 20px 0px rgba(161,161,161,1);
+}
+.login-form-header{
+	width: 500px;
+	height: 50px;
+	border-bottom: solid 1px #c7c7c7;
+}
+.login-form-header-content{
+	width: 238px;
+	height: 48px;
+	font-family: 'HYWUML';
+	font-size: 24px;
+	text-align: center;
+	padding-bottom:5px;
+	display: inline-block;
+	float: left;
+	margin-left: 8px;
+	line-height: 60px;
+	cursor: pointer;
+}
+.login-form-header-content.passive{
+	color: #c7c7c7;
+	border-bottom: solid 2px #c7c7c7;
+}
+.login-form-header-content.active, .login-form-header-content:hover{
+	color: #065ec2;
+	border-bottom: solid 2px #065ec2;
+}
+.login-form-accept{
+	width: 500px;
+	height: 110px;
+	background-color: #ffffff;
+	border-bottom: solid 1px #c7c7c7;
+	padding: 24px 50px 30px 50px;
+}
+.login-form-accept-sub-1{
+	width: 400px;
+	height: 30px;
+	font-family: 'malgunbd';
+	font-size: 16px;
+	color: #cc0000;
+}
+.login-form-content-url-confirm{
+	width: 400px;
+	height: 30px;
+	border: solid 1px #c7c7c7;
+	background-color: #ffffff;
+	font-family: 'malgun';
+	font-size: 13px;
+	color: #7d7d7d;
+	padding-left: 49px;
+	padding-right: 19px;
+	line-height: 28px;
+	background-image: url('../image/lock.png');
+	background-repeat: no-repeat;
+	background-position: 19px 6px;
+}
+.login-form-content{
+	width: 500px;
+	height: 225px;
+	padding: 0px 50px;
+	border-bottom: solid 1px #c7c7c7;
+	padding: 30px 50px 40px 50px;
+}
+.login-form-content-inputbox{
+	width: 400px;
+	height: 35px;
+	border: solid 1px #c7c7c7;
+	background-color: #ffffff;
+	font-family: 'malgun';
+	font-size: 13px;
+	color: #7d7d7d;
+	padding-left: 19px;
+	padding-right: 19px;
+}
+.login-form-btn{
+	width: 500px;
+	height: 80px;
+	text-align: center;
+	padding-top: 17.5px;
+}
+.login-form-submit{
+	width: 220px;
+	height: 45px;
+	font-family: 'malgunbd';
+	font-size: 16px;
+	color: #f4f7f9;
+	background-color: #182129;
+	border: 0px !important;
+}
+.login-form-forget{
+	font-family: 'malgun';
+	font-size: 14px;
+	color: #7d7d7d;
+	border-bottom: solid 1px #7d7d7d;
+	width: 156px;
+	float:right;
+	margin-top: 5px;
+}

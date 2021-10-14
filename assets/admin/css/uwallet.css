@@ -1,0 +1,17 @@
+.btn.btn-default{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#userWalletList td, th{
+	font-size: 12px;
+}
+#userWalletList th{
+	text-align: center;
+}
+.panel-body{
+	overflow-x: auto;
+}
+.button_group{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}

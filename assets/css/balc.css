@@ -1,0 +1,439 @@
+body{
+	background-color:#ffffff;
+}
+.nav.nav-tabs{
+	border-bottom: 0px;
+}
+.nav.nav-tabs li{
+	width: 14.28%;
+	text-align: center;
+}
+.page-content-panel{
+	margin-top: 30px;
+}
+.tab-content-body{
+	border-color: #dae8f1;
+}
+.tab-content-body-grey{
+	border-color: #f4f7f9;
+	border-width: 0px;
+}
+.tab-content-default-sub{
+	border: none;
+	box-shadow: none;
+}
+.tab-content-body-sub{
+	line-height: 30px;
+	border-bottom: solid 1px #dddddd;
+}
+.btn-none{
+	width: 32%;
+}
+.high-line-height{
+	line-height: 30px;
+}
+.table-current-balance{
+	width: 100%;
+}
+.table-current-balance th{
+	background-color: #f4f7f9;
+	text-align: center;
+	line-height: 34px;
+	height: 34px;
+	font-size: 14px;
+	color: #666;
+}
+.table-current-balance td{
+	border-top: solid 1px #c7c7c7;
+	line-height: 16px;
+	font-size: 14px;
+	color: #182129;
+	padding:8px;
+}
+#datatableMyOpenOrders td{
+	border-top: dotted 1px #c7c7c7 !important;
+	line-height: 16px;
+	font-size: 14px;
+	color: #182129;
+	padding-top:19px;
+	padding-bottom:2px;
+}
+#datatableDepWith td{
+	border-top: dotted 1px #c7c7c7 !important;
+	line-height: 16px;
+	font-size: 14px;
+	color: #182129;
+	padding-top:19px;
+	padding-bottom:2px;
+}
+.datatable-basic td{
+	border-top: dotted 1px #c7c7c7 !important;
+	line-height: 16px;
+	font-size: 14px;
+	color: #182129;
+	padding-top:19px;
+	padding-bottom:2px;
+}
+#datatableMyMarketHistory td{
+	padding: 6px 0px !important;
+	border-top: 0px !important;
+}
+#datatableMyMarketHistory tr.even{
+	background-color:#f4f7f9 !important;
+}
+#datatableSKYPoolHistory td{
+	/* padding: 6px 0px !important; */
+	border-top: 0px !important;
+}
+#datatableSKYPoolHistory tr.even{
+	background-color:#f4f7f9 !important;
+}
+.quiz{
+	width: 16px;
+	height: 16px;
+	background-image: url('../image/quiz.png');
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 5px;
+	margin-top: 2.5px;
+	position: relative;
+}
+.quiz:hover{
+	cursor: pointer;
+	background-position: bottom;
+}
+.answer{
+	text-align: left;
+	width: 300px;
+	float: right;
+	padding: 10px;
+	border: solid 1px #ddd;
+	position: absolute;
+	background-color: #FFF;
+	right: 0px;
+	display: none;
+	margin-top: 25px;
+	line-height: 22px;
+	color: #666;
+}
+.answer::before{
+	content: '';
+	position: absolute;
+	top: -6px;
+	right: 6px;
+	width: 9px;
+	height: 6px;
+	background: url('../image/icn_tooltip_bg.png') no-repeat;
+}
+.close-answer{
+	content: '';
+	position: absolute;
+	top: 9px;
+	right: 9px;
+	width: 12px;
+	height: 11px;
+	background: url('../image/icn_tooltip_close.png') no-repeat;	
+}
+#intval_analyze_answer, #analyze_answer{
+	width: 350px;
+}
+.btn.btn-default.btn-dark-grey{
+	float: right;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.btn.btn-default.btn-dark-grey:hover{
+	background-color: #182129;
+	color:#f4f7f9;
+}
+#datatableIntvalBalanceCalc_info, #datatableIntvalBalanceCalc_paginate, #datatableMyMarketHistory_paginate, #datatableIntvalBalanceCalc_length, #datatableIntvalBalanceCalc_filter{
+	display: none;
+}
+#datatableIntvalBalanceCalc{
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+.my-datepicker{
+	width: 158px;
+	float: right;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #ffffff;
+}
+.datatable-myopenorders-content{
+	max-height: 467px;
+	min-height: 467px;
+	border-bottom:solid 1px #c7c7c7 !important;
+}
+#datatableMyOpenOrders{
+	width: 1384px !important;
+	margin: 1px 8px 0px 8px !important;
+	border-right: solid 1px #c7c7c7;
+	border-left: solid 1px #c7c7c7;
+	background-color: #ffffff;
+	height:
+}
+#datatableMyOpenOrders th{
+	border-left:solid 1px #c7c7c7;
+	border-bottom:solid 1px #c7c7c7;
+	background-color:#f4f7f9;
+}
+#datatableDepWith{
+	width: 1384px !important;
+	margin: 1px 8px 0px 8px !important;
+	border-right: solid 1px #c7c7c7;
+	border-left: solid 1px #c7c7c7;
+	background-color: #ffffff;
+	height:
+}
+#datatableDepWith th{
+	border-left:solid 1px #c7c7c7;
+	border-bottom:solid 1px #c7c7c7;
+	background-color:#f4f7f9;
+}
+.datatable-basic{
+	width: 1384px !important;
+	margin: 1px 8px 0px 8px !important;
+	border-right: solid 1px #c7c7c7;
+	border-left: solid 1px #c7c7c7;
+	background-color: #ffffff;
+}
+.datatable-basic th{
+	border-left:solid 1px #c7c7c7;
+	border-bottom:solid 1px #c7c7c7;
+	background-color:#f4f7f9;
+}
+.form-control{
+	height:30px !important;
+	padding:0px 6px;
+}
+.btnFixedPadding{
+	padding: 5px 12px;
+}
+.form-control.input-sm{
+	width: 70px;
+}
+#datatableMyOpenOrders_info, #datatableMyOpenOrders_length, #datatableMyOpenOrders_filter{
+	display: none;
+}
+#datatableMyOpenOrders_paginate{
+	display:none;
+}
+#datatableMyOpenOrders_wrapper{
+	margin-top: -2px;
+	margin-left: -1px;
+}
+.datatableMyOpenOrdersFilterElementContent{
+	float:right;
+	padding-right: 20px;
+	line-height: 30px;
+}
+#datatableDepWith_info, #datatableDepWith_length, #datatableDepWith_filter{
+	display: none;
+}
+#datatableDepWith_paginate{
+	display:none;
+}
+#datatableDepWith_wrapper{
+	margin-top: -2px;
+	margin-left: -1px;
+}
+.datatableDepWithFilterElementContent{
+	float:right;
+	padding-right: 20px;
+	line-height: 30px;
+}
+.searchByCoin{
+	width:218px;
+}
+.searchByOrderType{
+	width:78px;
+}
+#datatableMyMarketHistory{
+	width: 1384px !important;
+	margin-top: 0px !important;
+	margin-bottom: -1px !important;
+}
+#datatableSKYPoolHistory{
+	width: 1384px !important;
+	margin-top: 0px !important;
+	margin-bottom: -1px !important;
+}
+#datatableMyMarketHistory th{
+	background-color:#f4f7f9 !important;
+}
+#datatableETHairdropHistory th{
+	background-color:#f4f7f9 !important;
+}
+#datatableSKYPoolHistory th{
+	background-color:#f4f7f9 !important;
+}
+#datatableMyMarketHistory_info, #datatableMyMarketHistory_length, #datatableMyMarketHistory_filter{
+	display: none;
+}
+#datatableMyMarketHistory_paginate{
+	margin-top: 20px;
+}
+#datatableMyMarketHistory_wrapper{
+	margin-top: -2px;
+	margin-left: -1px;
+}
+.datatableMyMarketHistoryFilterElementContent{
+	width:300px;
+	float:right;
+	padding-right: 20px;
+	line-height: 30px;
+}
+#datatableMyMarketHistoryFilterSearchByCoin, #datatableMyMarketHistoryFilterSearchByOrderType{
+	width:220px;
+}
+#datatableSKYPoolHistory_info, #datatableSKYPoolHistory_length, #datatableSKYPoolHistory_filter,#datatableMyOpenOrdersPageLength,#datatableDepWithPageLength, #datatableMyMarketHistoryPageLength, #datatableETHairdropHistoryPageLength, #datatableSKYPoolHistoryPageLength{
+	display: none;
+}
+#datatableSKYPoolHistory_paginate{
+	display:none;
+}
+#datatableSKYPoolHistory_wrapper{
+	margin-top: -2px;
+	margin-left: -1px;
+}
+.datatableSKYPoolHistoryFilterElementContent{
+	width:300px;
+	float:right;
+	padding-right: 20px;
+	line-height: 30px;
+}
+#datatableSKYPoolHistoryFilterSearchByCoin, #datatableSKYPoolHistoryFilterSearchByOrderType{
+	width:220px;
+}
+#datatableETHairdropHistory{
+	width: 1384px !important;
+	margin-top: 0px !important;
+	margin-bottom: -1px !important;
+}
+#datatableETHairdropHistory_info, #datatableETHairdropHistory_length, #datatableETHairdropHistory_filter, #datatableETHairdropHistory_paginate{
+	display: none;
+}
+#datatableETHairdropHistory_wrapper{
+	margin-top: -2px;
+	margin-left: -1px;
+}
+.div-width-300px{
+	width:300px;
+	display:inline-block;
+	float:left;
+	height:80px;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-bottom: 28px;
+}
+.div-width-1100px{
+	float:left;
+	width:1100px;
+	padding-right:20px;
+	display:inline-block;
+	height:80px;
+}
+.div-height-39px-border-bottom-1px{
+	width: 100%;
+	height: 39px;
+	border-bottom: dotted 1px #c7c7c7;
+}
+.div-height-40px{
+	width: 100%;
+	height: 40px;
+}
+.answer{
+	z-index: 99;
+}
+.nav.nav-tabs li.tab-basic a{
+	border-bottom:solid 4px #7d7d7d !important;
+	margin: 0px;
+	border: 0px;
+	border-radius: 0px;
+	line-height: 40px;
+	background-color: #f4f7f9;
+}
+.nav.nav-tabs li.tab-basic a{
+	font-size: 19px;
+	color:#7d7d7d !important;
+	line-height: 26px;
+}
+.nav.nav-tabs li.tab-basic.active a{
+	color: #065ec2 !important;
+	font-weight:bold;
+}
+.tab-basic{
+	border-left:solid 1px #c7c7c7;
+}
+.dottedDivider{
+	width:100%;
+	padding:5px;
+	margin-top:19px;
+	border-top:dotted 2px #c7c7c7;
+	border-bottom:dotted 2px #c7c7c7;
+}
+
+
+.datatable-myopenorders-content > .scroll-element,
+.datatable-myopenorders-content > .scroll-element div
+{
+    border: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 10;
+}
+ 
+.datatable-myopenorders-content > .scroll-element div {
+    display: block;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+ 
+.datatable-myopenorders-content > .scroll-element.scroll-x {
+    display: none;
+}
+ 
+.datatable-myopenorders-content > .scroll-element.scroll-y {
+    height: 100%;
+    right: 1px;
+    top: 0;
+    width: 3px;
+}
+ 
+.datatable-myopenorders-content > .scroll-element .scroll-element_outer {
+    overflow: hidden;
+}
+ 
+.datatable-myopenorders-content > .scroll-element .scroll-element_outer,
+.datatable-myopenorders-content > .scroll-element .scroll-element_track,
+.datatable-myopenorders-content > .scroll-element .scroll-bar {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+ 
+.datatable-myopenorders-content > .scroll-element .scroll-element_track,
+.datatable-myopenorders-content > .scroll-element .scroll-bar {
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    filter: alpha(opacity=40);
+    opacity: 0.4;
+}
+ 
+.datatable-myopenorders-content > .scroll-element .scroll-element_track { background-color: #e0e0e0; }
+.datatable-myopenorders-content > .scroll-element .scroll-bar { background-color: #c2c2c2; }
+.datatable-myopenorders-content > .scroll-element:hover .scroll-bar { background-color: #919191; }
+.datatable-myopenorders-content > .scroll-element.scroll-draggable .scroll-bar { background-color: #919191; }
+ 
+ 
+/* update scrollbar offset if both scrolls are visible */
+ 
+.datatable-myopenorders-content > .scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_track { left: -12px; }
+.datatable-myopenorders-content > .scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_track { top: -12px; }
+ 
+ 
+.datatable-myopenorders-content > .scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_size { left: -12px; }
+.datatable-myopenorders-content > .scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_size { top: -12px; }

@@ -1,0 +1,29 @@
+.btn.btn-default{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+#tableCoinList th{
+	text-align:center;
+	font-weight: bold;
+}
+#tableCoinList td, th{
+	font-size: 12px;
+}
+#tableCoinList td .form-control{
+	font-size: 12px;
+}
+
+.form-control{
+	height:30px !important;
+}
+
+.btn{
+	height:30px !important;
+}
+
+#submit_error_alert_content{
+	display: none;
+}
+#submit_success_alert_content{
+	display: none;
+}

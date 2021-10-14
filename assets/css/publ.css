@@ -1,0 +1,127 @@
+.publ-main-board{
+	margin-bottom: 150px;
+	height: 1050px;
+	background-image: url('../image/bubble-background.png');
+}
+.publ-main-board-content{
+	width: 920px;
+	height: 1000px;
+	margin: 0 auto;
+}
+.publ-header-content{
+	width: 920px;
+	height: 175px;
+	padding-top: 60px;
+}
+.publ-header-content-left{
+	width: 460px;
+	height: 115px;
+	display: inline-block;
+	float: left;
+}
+.publ-header-content-logo{
+	width: 460px;
+	height: 80px;
+	background-image: url('../image/coinsky.png');
+	background-repeat: no-repeat;
+	font-size: 48px;
+	padding-left: 120px;
+	line-height: 90px;
+	color: #00adee;
+}
+.publ-header-content-descript{
+	width: 460px;
+	height: 35px;
+	font-size: 17px;
+	text-align: left;
+	padding-left: 13px;
+	line-height: 50px;
+	font-family: 'malgunbd';
+}
+.publ-header-content-right{
+	width: 460px;
+	height: 115px;
+	display: inline-block;
+	float: left;
+	background-image: url('../image/snapshot.png');
+	background-repeat: no-repeat;
+	background-position: 0px 13px;
+	font-size: 60px;
+	line-height: 60px;
+	color: #00adee;
+	padding-top: 42px;
+	padding-left: 135px;
+	letter-spacing: 1.7px;
+}
+@supports (-ms-ime-align: auto) {
+	.publ-header-content-right {
+		letter-spacing: -3.5px;
+	}
+}
+.publ-body-content{
+	width: 920px;
+	height: 760px;
+	padding: 20px;
+}
+.publ-body-content-half{
+	width: 420px;
+	margin: 10px;
+	border: solid 2px #249ac8;
+	display: inline-block;
+	float: left;
+	padding: 20px;
+}
+.publ-board-header{
+	width: 386px;
+	height: 42px;
+	font-size: 24px;
+	text-align: center;
+	border-bottom: solid 1px #c7c7c7;
+}
+.publ-board-title{
+	width: 386px;
+	height: 59px;
+	line-height: 59px;
+	font-size: 22px;
+	text-align: left;
+	border-bottom: solid 1px #c7c7c7;
+	padding: 0px 30px;
+	background-image: url('../image/circle.png');
+	background-repeat: no-repeat;
+	background-position: 0px;
+}
+.publ-board-text{
+	width: 386px;
+	height: 59px;
+	line-height: 59px;
+	font-size: 19px;
+	text-align: left;
+	border-bottom: solid 1px #c7c7c7;
+	padding: 0px 10px;
+}
+.publ-board-total{
+	width: 386px;
+	height: 78px;
+	line-height: 78px;
+	font-size: 22px;
+	text-align: left;
+	border-bottom: solid 5px #7d7d7d;
+	padding: 0px 10px;
+}
+.publ-board-sub{
+	width: 386px;
+	height: 40px;
+	line-height: 20px;
+	font-size: 12px;
+	text-align: right;
+}
+.publ-footer-content{
+	text-align: center;
+}
+.publ-button-register{
+	width: 150px;
+	height: 35px;
+	color: #f4f7f9;
+	background-color: #00adee;
+	border: 0px;
+}

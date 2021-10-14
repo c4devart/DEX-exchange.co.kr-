@@ -1,0 +1,52 @@
+.btn.btn-default{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+#tableCoinList th{
+	text-align:center;
+	font-weight: bold;
+}
+#tableCoinList td, th{
+	font-size: 12px;
+}
+#tableCoinList td .form-control{
+	font-size: 12px;
+}
+
+.form-control{
+	height:30px !important;
+}
+
+.btn{
+	height:30px !important;
+}
+
+#submit_error_alert_content{
+	display: none;
+}
+#submit_success_alert_content{
+	display: none;
+}
+select.form-control{
+	padding: 0px;
+}
+.tableFees{
+	width: 100%;
+}
+.tableFees th, td{
+	text-align: center;
+	border: solid 1px #c7c7c7;
+	height: 30px;
+	line-height: 30px;
+}
+.tableFees td{
+	text-align: right;
+	padding: 5px;
+}
+.feeInputBox{
+	width: 80%;
+	cursor: pointer !important;
+	height: 25px;
+	float: left;
+	text-align: right;
+}

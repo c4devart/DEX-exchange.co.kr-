@@ -1,0 +1,15 @@
+var langData = [];
+langData[0] = '모든 입력란을 입력하세요.';
+langData[1] = 'No image';
+langData[2] = "검색어";
+langData[3] = '행';
+langData[4] = "선택된 회원이 없습니다.";
+langData[5] = "삭제 하시겠습니까?";
+langData[6] = '이름은 3문자 이상 이어야 합니다.';
+langData[7] = '암호는 6문자 이상 이어야 합니다.';
+langData[8] = '암호가 일치하지 않습니다. 암호를 다시 입력하십시오.';
+langData[9] = '모든 입력란을 입력하세요.';
+langData[10] = "정정 중지";
+langData[11] = "목록에서 정정";
+langData[12] = "정정됨...";
+langData[13] = "선택된 회원들을 삭제 하시겠습니까?";

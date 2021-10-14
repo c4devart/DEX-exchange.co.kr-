@@ -1,0 +1,56 @@
+.btn.btn-default{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#userBalanceLIst td, th{
+	font-size: 12px;
+}
+#userBalanceLIst th{
+	font-weight:bold;
+	text-align: center;
+}
+#userBalanceLIst td{
+	text-align: right;
+}
+#userBalanceLIst tr{
+	cursor: pointer;
+}
+#userBalanceLIst tr:hover{
+	background-color: #eeeeee;
+}
+#userBalanceLIst select{
+	width: 100%;
+}
+.date.badge.badge-default{
+	background-color: #808080;
+	cursor: pointer;
+}
+.date.badge.badge-active{
+	background-color: #008000;
+	cursor: pointer;
+}
+.date.badge.badge-delete{
+	background-color: #ff0000;
+	cursor: pointer;
+}
+.date.badge.badge-default:hover{
+	background-color: #484848;
+}
+.date.badge.badge-active:hover{
+	background-color: #005000;
+}
+.date.badge.badge-delete:hover{
+	background-color: #cc0000;
+}
+.panel-body{
+	overflow-x: auto;
+}
+.uBalanceListInputBox{
+	cursor: pointer;
+	text-align: right;
+}
+
+#userBalanceLIst td {
+	vertical-align: middle;
+	text-align: center;
+}

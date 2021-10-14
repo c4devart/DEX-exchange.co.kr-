@@ -1,0 +1,41 @@
+#datatableEthDropHistory td, th{
+	font-size: 13px;
+}
+#datatableEthDropHistory th{
+	text-align: center;
+	font-weight: bold;
+}
+#filterSearch{
+	width:100px;
+}
+.filterElementContent{
+	width:330px;
+	float:right;
+	padding-right: 20px;
+	line-height: 30px;
+}
+#searchByUnit, #searchByType{
+	width:220px;
+}
+
+#intval_analyze_answer, #analyze_answer{
+	width: 350px;
+}
+.btn.btn-default.btn-dark-grey{
+	float: right;
+	padding-right: 30px;
+	padding-left: 30px;
+	background-color: #666666;
+	border-color: #333333;
+	color: #FFF;
+}
+.btn.btn-default.btn-dark-grey:hover{
+	background-color: #333333;
+}
+.my-datepicker{
+	width: 150px;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #f8f8f8;
+}

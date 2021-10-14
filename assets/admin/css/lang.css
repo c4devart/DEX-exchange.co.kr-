@@ -1,0 +1,49 @@
+.btn.btn-default{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#languageList td, th{
+	font-size: 12px;
+}
+#languageList th{
+	font-weight:bold;
+	text-align: center;
+}
+#languageList tr{
+	cursor: pointer;
+}
+#languageList tr:hover{
+	background-color: #eeeeee;
+}
+#languageList select{
+	width: 100%;
+}
+.date.badge.badge-default{
+	background-color: #808080;
+	cursor: pointer;
+}
+.date.badge.badge-active{
+	background-color: #008000;
+	cursor: pointer;
+}
+.date.badge.badge-delete{
+	background-color: #ff0000;
+	cursor: pointer;
+}
+.date.badge.badge-default:hover{
+	background-color: #484848;
+}
+.date.badge.badge-active:hover{
+	background-color: #005000;
+}
+.date.badge.badge-delete:hover{
+	background-color: #cc0000;
+}
+.panel-body{
+	overflow-x: auto;
+}
+.languageListInputBox{
+	cursor: pointer;
+	text-align: left;
+	width: 100% !important;
+}

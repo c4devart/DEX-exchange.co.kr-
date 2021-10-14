@@ -1,0 +1,37 @@
+.btn.btn-default{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#user_list td, th{
+	font-size: 12px;
+}
+#user_list th{
+	font-weight:bold;
+}
+#user_list select{
+	width: 100%;
+}
+.date.badge.badge-default{
+	background-color: #808080;
+	cursor: pointer;
+}
+.date.badge.badge-active{
+	background-color: #008000;
+	cursor: pointer;
+}
+.date.badge.badge-delete{
+	background-color: #ff0000;
+	cursor: pointer;
+}
+.date.badge.badge-default:hover{
+	background-color: #484848;
+}
+.date.badge.badge-active:hover{
+	background-color: #005000;
+}
+.date.badge.badge-delete:hover{
+	background-color: #cc0000;
+}
+.panel-body{
+	overflow-x: auto;
+}

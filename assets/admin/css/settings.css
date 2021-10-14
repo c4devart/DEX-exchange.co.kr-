@@ -1,0 +1,6 @@
+.btn.btn-primary{
+	float: right;
+}
+#submit_error_alert_content{
+	display: none;
+}

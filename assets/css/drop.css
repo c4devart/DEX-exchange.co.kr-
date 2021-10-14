@@ -1,0 +1,83 @@
+.drop-main-board{
+	margin-bottom: 150px;
+	height: auto;
+	background-image: url('../image/bubble-background.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.drop-main-board-content{
+	width: 920px;
+	height: auto;
+	margin: 0 auto;
+}
+.drop-header-content{
+	width: 920px;
+	height: 175px;
+	padding-top: 60px;
+}
+.drop-header-content-logo{
+	width: 920px;
+	height: 80px;
+	background-image: url('../image/coinsky.png');
+	background-size: 75px;
+	background-repeat: no-repeat;
+	font-size: 32px;
+	padding-left: 90px;
+	line-height: 70px;
+	color: #00adee;
+}
+.drop-header-content-descript{
+	width: 920px;
+	height: 35px;
+	font-size: 17px;
+	text-align: left;
+	padding-left: 13px;
+	line-height: 40px;
+	font-family: 'malgunbd';
+}
+.drop-body-content{
+	width: 920px;
+	height: auto;
+	padding: 20px;
+}
+.drop-footer-content{
+	padding: 10px 20px 160px 20px;
+}
+.drop-button-register{
+	width: 150px;
+	height: 35px;
+	color: #f4f7f9;
+	background-color: #00adee;
+	border: 0px;
+}
+.drop-table-content{
+}
+.drop-table-content-header{
+	width: 100%;
+	font-size: 16px;
+	text-align: left;
+	line-height: 20px;
+	font-family: 'malgunbd';
+}
+.drop-table-content-body{
+	width: 100%;
+	margin-top: 10px;
+}
+.drop-table-content-body table{
+	width: 100%;
+}
+.drop-table-content-body table th, td{
+	font-size: 12px;
+	width: 145px;
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+	border: solid 1px #00adee;
+}
+.drop-table-content-body table th{
+	color: #00adee;
+}
+.drop-table-content-content-title{
+	padding: 10px;
+	font-size: 13px;
+}

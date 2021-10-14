@@ -1,0 +1,243 @@
+body{
+	background-color: #ffffff;
+}
+.coinsky-page{
+	min-height: 590px !important;
+}
+.register-form{
+	width: 500px;
+	height: 590px;
+	background-color: #f4f7f9;
+	margin: 60px 450px 150px 450px;
+	-webkit-box-shadow: 4px 4px 20px 0px rgba(161,161,161,1);
+	-moz-box-shadow: 4px 4px 20px 0px rgba(161,161,161,1);
+	box-shadow: 4px 4px 20px 0px rgba(161,161,161,1);
+}
+.register-form-header{
+	width: 500px;
+	height: 50px;
+	border-bottom: solid 1px #c7c7c7;
+}
+.register-form-accept{
+	width: 500px;
+	height: 100px;
+	background-color: #ffffff;
+	border-bottom: solid 1px #c7c7c7;
+}
+.register-form-content{
+	width: 500px;
+	height: 354px;
+	padding: 0px 50px;
+	border-bottom: solid 1px #c7c7c7;
+}
+.register-form-btn{
+	width: 500px;
+	height: 80px;
+	text-align: center;
+	padding-top: 17.5px;
+}
+.register-form-header-content{
+	width: 238px;
+	height: 48px;
+	font-family: 'HYWUML';
+	font-size: 24px;
+	text-align: center;
+	padding-bottom:5px;
+	display: inline-block;
+	float: left;
+	margin-left: 8px;
+	line-height: 60px;
+	cursor: pointer;
+}
+.register-form-header-content.passive{
+	color: #c7c7c7;
+	border-bottom: solid 2px #c7c7c7;
+}
+.register-form-header-content.active, .register-form-header-content:hover{
+	color: #065ec2;
+	border-bottom: solid 2px #065ec2;
+}
+.register-form-accept{
+	padding: 24px 50px 30px 50px;
+}
+.register-form-accept-sub-1{
+	width: 400px;
+	height: 46px;
+	font-family: 'malgunbd';
+	font-size: 16px;
+	color: #cc0000;
+}
+.register-form-accept-sub-2{
+	width: 400px;
+	height: 40px;
+	line-height: 40px;
+	font-family: 'malgunbd';
+	font-size: 14px;
+	color: #182129;
+}
+.register-form-accept-sub-3{
+	width: 400px;
+	height: 25px;
+	line-height: 25px;
+	font-family: 'malgun';
+	font-size: 14px;
+	color: #7d7d7d;
+}
+.register-form-content-header{
+	width: 400px;
+	height: 60px;
+	font-family: 'HYWUML';
+	font-size: 18px;
+	color: #182129;
+	line-height: 60px;
+}
+.register-form-content-inputbox{
+	width: 400px;
+	height: 35px;
+	border: solid 1px #c7c7c7;
+	background-color: #ffffff;
+	font-family: 'malgun';
+	font-size: 13px;
+	color: #7d7d7d;
+	padding-left: 19px;
+	padding-right: 19px;
+}
+.register-form-content-inputbox.margin-20{
+	margin-bottom: 20px;
+}
+.register-form-content-inputbox.margin-10{
+	margin-bottom: 10px;
+}
+.img-check-on, .img-check-off:hover{
+	background-image: url('../image/check-on.png');
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.img-check-off, .img-check-on:hover{
+	background-image: url('../image/check-off.png');
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.img-condition-on, .img-condition-off:hover{
+	background-image: url('../image/condition-on.png');
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.img-condition-off, .img-condition-on:hover{
+	background-image: url('../image/condition-off.png');
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.register-form-accept-sub-2-left{
+	width: 16px;
+	height: 16px;
+	margin: 12px 9px 12px 0px;
+}
+.register-form-accept-sub-2-right{
+	width: 375px;
+}
+.register-form-accept-sub-3-left{
+	width: 16px;
+	height: 16px;
+	margin: 4.5px 9px 4.5px 0px;
+}
+.register-form-accept-sub-3-right{
+	width: 375px;
+}
+.register-form-content-pass-conditions{
+	width: 400px;
+	height: 203px;
+	border: solid 1px #c7c7c7;
+}
+.register-form-content-pass-conditions-header{
+	width: 400px;
+	height: 39px;
+	font-family: 'malgunbd';
+	font-size: 14px;
+	color: #7d7d7d;
+	line-height: 39px;
+	padding-left: 19px;
+}
+.register-form-content-pass-conditions-content-sub{
+	width: 400px;
+	height: 25px;
+	padding-left: 64px;
+	line-height: 25px;
+	font-size: 13px;
+	font-family: 'malgun';
+	background-repeat: no-repeat;
+	background-position: 39px 5px;
+}
+.register-form-content-pass-conditions-content-sub.active{
+	color: #182129;
+	background-image: url('../image/condition-on.png');
+}
+.register-form-content-pass-conditions-content-sub.passive{
+	color: #7d7d7d;
+	background-image: url('../image/condition-off.png');
+}
+.register-form-content-pass-conditions-footer{
+	width: 400px;
+	height: 39px;
+	font-family: 'malgun';
+	font-size: 12px;
+	color: #7d7d7d;
+	line-height: 39px;
+	padding-left: 39px;
+}
+.register-form-content-confirm-content{
+	width: 400px;
+	height: 35px;
+}
+.register-form-content-confirm-content.margin-20{
+	margin-top: 20px;
+}
+.register-form-content-confirm-content.margin-10{
+	margin-top: 10px;
+}
+.register-form-content-confirm-content-inputbox{
+	width: 270px;
+	height: 35px;
+	border: solid 1px #c7c7c7;
+	background-color: #ffffff;
+	font-family: 'malgun';
+	font-size: 13px;
+	color: #7d7d7d;
+	padding-left: 19px;
+	padding-right: 19px;
+}
+.register-form-content-confirm-btn{
+	width: 120px;
+	height: 35px;
+	font-family: 'malgunbd';
+	font-size: 13px;
+	color: #f4f7f9;
+	text-align: center;
+	background-color: #065ec2;
+	border: 0px;
+	float: right;
+}
+.register-form-content-footer{
+	width: 400px;
+	height: 40px;
+	font-family: 'malgun';
+	font-size: 13px;
+	color: #cc0000;	
+}
+.register-form-submit{
+	width: 220px;
+	height: 45px;
+	font-family: 'malgunbd';
+	font-size: 16px;
+	color: #f4f7f9;
+	background-color: #182129;
+	border: 0px !important;
+}
+.register-form-timer-count{
+	font-family: 'malgun';
+	font-size: 13px;
+	color: #cc0000;
+	position: absolute;
+	margin-left: -40px;
+	margin-top: 8px;
+}

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.js-rootresizer__contents{opacity:0;}
+.header-chart-panel-content:after{content:'';position:absolute;top:15px;right:90px;display:block;width:40px;height:11px;background:url("/resources/img/chart/beta.gif") no-repeat;}
+.header-chart-panel-content.on:after{right:122px}
+.header-chart-panel .button.fullscreen{position:absolute;right:53px;}
+.header-chart-panel .button.fullscreen svg{fill:#8a8b8d}
+.header-chart-panel .button.fullscreen svg:last-child{ display:none;margin-top:2px;}
+.header-chart-panel .button.fullscreen.on svg:first-child{ display:none;}
+.header-chart-panel .button.fullscreen.on svg:last-child{ display:inline-block;}
+.header-chart-panel .group.header-group-properties{position:absolute;top:0;right:84px;display:none;}
+.header-group-properties .button.iconed{padding:6px 7px 8px}
+.intervals-container .quick .apply-common-tooltip:last-child{display:none;}
+.onchart-custom-logo a, .onchart-tv-logo a{background:transparent !important}
+.header-chart-panel-sizer{ position:relative;}
+.onchart-tv-logo .wrapper{padding:0;}
+.onchart-tv-logo.expanded.blue .wrapper, .onchart-tv-logo.expanded.grey .wrapper, .onchart-tv-logo.expanded .wrapper{background:none;}
+/* 비교 종목추가 */
+.tv-tabbed-dialog__tab-page:first-child{display:none !important}
+.tv-tabbed-dialog__tab-page:last-child{display:block !important}
+.tv-compare-dialog__tab:first-child{display:none !important;}
+.tv-compare-dialog__tab:last-child{display:block !important;}
+.symbol-edit-popup{ width:338px !important;}
+.symbol-edit-popup .filter a:last-child{display:none;}
+.symbol-search-dialog .filter a:last-child{display:none;}
+div.symbol-edit-popup .table-wrapper{width:338px}
+
+._tv-dialog,._tv-dialog-content{max-height:460px;}
+._tv-dialog-content .alert-dialog-content, ._tv-dialog-content .main-properties{max-height:300px;padding:10px 25px;}
+
+.tv-close-panel{display:none;}

@@ -1,0 +1,259 @@
+.otp-content-header{
+	width: 1400px;
+	height: 60px;
+	border-bottom: solid 1px #c7c7c7;
+	text-align: center;
+	font-family: 'malgunbd';
+	font-size: 16px;
+	color:#182129;
+	line-height: 60px;
+}
+.otp-content-app-container{
+	width: 1400px;
+	height: 370px;
+	padding-left: 250px;
+	padding-right: 250px;
+	border-bottom: solid 1px #c7c7c7;
+	background-color: #ffffff;
+}
+.coinsky-page{
+	min-height: 690px !important;
+}
+.otp-content-certify-container{
+	width: 1400px;
+	height: 450px;
+	padding-left: 250px;
+	padding-right: 250px;
+	border-bottom: solid 1px #c7c7c7;
+	background-color: #ffffff;
+}
+.otp-content-confirm-container{
+	width: 1400px;
+	height: 180px;
+	padding-left: 250px;
+	padding-right: 250px;
+}
+.otp-container-header{
+	width: 900px;
+	height: 70px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	line-height: 100px;
+	border-bottom: dotted 1px #c7c7c7;
+}
+.otp-container-description{
+	width: 900px;
+	height: 109px;
+	text-align: center;
+	line-height: 90px;
+	font-family: 'malgunbd';
+	font-size: 16px;
+	color: #7d7d7d;
+}
+.otp-container-header-left{
+	text-align: left;
+	font-family: 'HYWUML';
+	font-size: 24px;
+	color: #065ec2;
+	width: 420px;
+	height: 60px;
+	display: inline-block;
+	float: left;
+}
+.otp-container-header-right{
+	text-align: right;
+	font-family: 'HYWUML';
+	font-size: 18px;
+	color: #182129;
+	width: 420px;
+	height: 60px;
+	display: inline-block;
+	float: left;
+}
+.otp-app-download-content{
+	width: 900px;
+	height: 120px;
+}
+.otp-app-icon-content{
+	width: 120px;
+	height: 120px;
+	margin-left: 30px;
+	display: inline-block;
+	float: left;
+}
+.otp-app-icon-content.ios{
+	background-image: url('../image/google-2fa.png');
+}
+.otp-app-icon-content.android{
+	background-image: url('../image/google-otp.png');
+}
+.otp-app-url-content{
+	width: 200px;
+	height: 120px;
+	margin-left: 30px;
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+}
+.otp-app-url-content-header{
+	width: 200px;
+	height: 45px;
+	line-height: 48px;
+	font-family: 'malgunbd';
+	font-size: 48px;
+	color: #182129;
+	text-align: center;
+}
+.otp-app-url-content-center{
+	width: 200px;
+	height: 30px;
+	font-family: 'malgunbd';
+	font-size: 18px;
+	color: #7d7d7d;
+	text-align: center;
+	line-height: 40px;
+}
+.otp-app-url-content-footer{
+	width: 200px;
+	height: 35px;
+	margin-top: 10px;
+	font-family: 'malgun';
+	font-size: 14px;
+	color: #f4f7f9;
+	background-color: #065ec2;
+	text-align: center;
+	line-height: 35px;
+}
+.otp-app-certify-content{
+	width: 900px;
+	height: 200px;
+}
+.otp-app-certify-qrcode-content{
+	width: 260px;
+	height: 200px;
+	padding: 10px 40px 10px 40px;
+	display: inline-block;
+	float: left;
+}
+.otp-app-certify-key-content{
+	width: 640px;
+	height: 200px;
+	padding: 0px 70px 50px 0px;
+	display: inline-block;
+	float: left;
+}
+.img_otp_qrcode{
+	width: 180px;
+	height: 180px;
+}
+.otp-app-certify-key-description-content-1{
+	width: 570px;
+	height: 55px;
+	font-family: 'malgunbd';
+	font-size: 18px;
+	color: #7d7d7d;
+	line-height: 90px;
+}
+.otp-app-certify-key-description-content-2{
+	width: 570px;
+	height: 30px;
+	font-family: 'malgunbd';
+	font-size: 18px;
+	color: #7d7d7d;
+	line-height: 40px;
+}
+.otp-app-certify-key-description-content-3{
+	width: 570px;
+	height: 35px;
+}
+.otp-key-content{
+	width: 340px;
+	height: 35px;
+	border: solid 1px #c7c7c7;
+	color: #182129;
+	font-size: 16px;
+	display: inline;
+	float: left;
+	line-height: 35px;
+	text-align: center;
+}
+.otp-key-copy-btn{
+	width: 200px;
+	height: 35px;
+	color: #f4f7f9;
+	font-size: 14px;
+	background-color: #065ec2;
+	margin-left: 30px;
+	display: inline;
+	float: left;
+	line-height: 35px;
+	text-align: center;
+	cursor: pointer;
+}
+.otp-key-passive-btn{
+	width: 200px;
+	height: 35px;
+	color: #7d7d7d;
+	font-size: 14px;
+	background-color: #f4f7f9;
+	border: solid 1px #c7c7c7;
+	margin-left: 30px;
+	display: inline;
+	float: left;
+	line-height: 35px;
+	text-align: center;
+	cursor: pointer;
+}
+.otp-content-confirm-container-header{
+	width: 900px;
+	height: 50px;
+	text-align: center;
+	font-family: 'malgunbd';
+	font-size: 16px;
+	color:#182129;
+	line-height: 80px;
+}
+.otp-content-confirm-container-center{
+	width: 900px;
+	height: 130px;
+	padding: 40px 70px 55px 30px;
+}
+.otp-confirm-description{
+	width: 200px;
+	height: 35px;
+	display: inline-block;
+	float: left;
+	text-align: right;
+	line-height: 35px;
+	font-family: 'malgunbd';
+	font-size: 16px;
+	color: #7d7d7d;
+}
+.otp-confirm-inputbox{
+	width: 340px;
+	height: 35px;
+	border: solid 1px #c7c7c7;
+	display: inline-block;
+	float: left;
+	line-height: 35px;
+	margin-left: 30px;
+	padding-left: 20px;
+	font-family: 'malgun';
+	font-size: 13px;
+	color: #182129;
+}
+.otp-confirm-key-submit{
+	width: 200px;
+	height: 35px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	line-height: 35px;
+	margin-left: 30px;
+	font-family: 'malgun';
+	font-size: 14px;
+	color: #f4f7f9;
+	background-color: #182129;
+	cursor: pointer;
+}

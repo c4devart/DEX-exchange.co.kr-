@@ -1,0 +1,352 @@
+body{
+	background-color: #ffffff !important;
+}
+/* width class */
+.width-60{
+	width: 60px;
+}
+.width-70{
+	width: 70px;
+}
+.width-109{
+	width: 109px;
+}
+.width-129{
+	width: 130px;
+}
+.width-170{
+	width: 170px;
+}
+.width-200{
+	width: 200px;
+}
+.width-240{
+	width: 240px;
+}
+.width-250{
+	width: 250px;
+}
+.width-270{
+	width:270px;
+}
+.width-348{
+	width: 348px;
+}
+.width-350{
+	width: 350px;
+} 
+.width-370{
+	width:370px;
+}
+.width-380{
+	width:380px;
+}
+.width-400{
+	width: 400px;
+}
+.width-480{
+	width:480px;
+}
+.width-500{
+	width: 500px;
+}
+.width-580{
+	width:580px;
+}
+.width-600{
+	width: 600px;
+}
+.width-700{
+	width: 700px;
+}
+.width-800{
+	width: 800px;
+}
+.width-810{
+	width: 810px;
+}
+.width-980{
+	width: 980px;
+}
+.width-1000{
+	width: 1000px;
+}
+.width-1050{
+	width: 1050px;
+}
+.width-1060{
+	width: 1060px;
+}
+.width-1384{
+	width:1384px;
+}
+.width-1400{
+	width: 1400px;
+}
+
+/* height class */
+.height-25{
+	height: 25px;
+}
+.height-35{
+	height: 35px;
+}
+.height-40{
+	height: 40px;
+}
+.height-50{
+	width:100%;
+	height:50px;
+}
+.height-60{
+	width:100%;
+	height:60px;
+}
+.height-70{
+	height:70px;
+}
+.height-80{
+	height:80px;
+}
+.height-100{
+	height: 100px;
+}
+.height-120{
+	height: 120px;
+}
+.height-175{
+	height: 175px;
+}
+.height-200{
+	width:100%;
+	height:200px;
+}
+.height-232{
+	height:232px;
+}
+.height-240{
+	height: 240px;
+}
+.height-270{
+	height:270px;
+}
+.height-350{
+	height:350px;
+}
+.height-360{
+	height:360px;
+}
+.height-480{
+	height:480px;
+}
+.height-600{
+	height: 600px;
+}
+.height-610 {
+	height: 610px;
+}
+.height-720{
+	height: 720px;
+}
+.height-846{
+	height: 846px;
+}
+.height-1000{
+	height: 1000px;
+}
+.height-1000{
+	height: 1050px;
+}
+.height-1060{
+	height: 1060px;
+}
+.height-1200{
+	height: 1200px;
+}
+.height-2150{
+	height: 2150px;
+}
+
+
+.coinsky-page{
+	width:1400px;
+	min-height:800px;
+	margin: 0 auto;
+	margin-bottom: 150px !important;
+}
+.coinsky-page-header{
+	width: 1400px;
+	height: 80px;
+	margin-top: 10px;
+}
+.coinsky-page-header-title{
+	font-family: 'HYWUML';
+	font-size: 32px;
+	color: #7d7d7d;
+	line-height:80px;
+	padding-left: 24px;
+}
+.coinsky-page-content{
+	width:1400px;
+	height: auto;
+}
+.display-inline{
+	display: inline-block;
+	float:left;
+}
+.coinsky-fixed-width-1180{
+	width: 1180px;
+}
+.margin-left-20{
+	margin-left: 20px;
+}
+.coinsky-sidebar{
+	width:100%;
+}
+.coinsky-sidebar-content{
+	width:100%;
+	height:40px;
+	line-height: 24px;
+	padding: 8px;
+	border-bottom:solid 1px #c7c7c7;
+}
+.margin-top-4{
+	margin-top:4px;
+}
+.coinsky-sidebar-content-main-title{
+	 font-family: 'HYWUML';
+	 font-size: 13px;
+	 color: #182129;
+	 margin-left:8px;
+}
+.coinsky-sidebar-content-sub-title{
+	font-family: 'HYWUML';
+	font-size: 12px;
+	color: #7d7d7d;
+	margin-left:8px;
+}
+.coinsky-sidebar-content-img{
+	width: 24px;
+	height: 24px;
+}
+.coinsky-sidebar-content.active, .coinsky-sidebar-content:hover{
+	background-color: #18212a;
+	cursor: pointer;
+}
+.coinsky-sidebar-content.active .coinsky-sidebar-content-main-title, .coinsky-sidebar-content.active .coinsky-sidebar-content-sub-title, .coinsky-sidebar-content:hover .coinsky-sidebar-content-main-title, .coinsky-sidebar-content:hover .coinsky-sidebar-content-sub-title{
+	color: #f4f7f9;
+}
+.coinsky-sub-content-height-44{
+	height: 44px;
+} 
+.border-bottom-dot-1{
+	border-bottom: dotted 1px #7d7d7d;
+}
+.coinsky-sub-content-height-40{
+	height: 40px;
+}
+.fixed-width-590{
+	width: 590px;
+}
+
+
+
+.border-top-solid-1{
+	border-top: solid 1px #c7c7c7;
+}
+.border-bottom-solid-1{
+	border-bottom: solid 1px #c7c7c7;
+}
+.border-left-solid-1{
+	border-left:solid 1px #c7c7c7;
+}
+.back-color-light{
+	background-color: #f4f7f9;
+}
+.back-color-white{
+	background-color:#ffffff;
+}
+.border-bottom-dotted-1{
+	border-bottom:dotted 1px #c7c7c7;
+}
+.border-right-solid-1{
+	border-right:solid 1px #c7c7c7;
+}
+
+
+
+
+
+.margin-top-20{
+	margin-top:20px;
+}
+.nav.nav-tabs li.tab-basic a{
+	border-bottom:solid 4px #7d7d7d !important;
+	margin: 0px;
+	border: 0px;
+	border-radius: 0px;
+	line-height: 40px;
+	background-color: #f4f7f9;
+}
+.nav.nav-tabs li.tab-basic a{
+	font-size: 19px;
+	color:#7d7d7d !important;
+	line-height: 26px;
+	text-align:center;
+	border-left:solid 1px #c7c7c7 !important;
+}
+.nav.nav-tabs li.tab-basic.active a{
+	border-color: #065ec2 !important;
+	color: #065ec2 !important;
+	font-weight:bold;
+	border-left:solid 1px #c7c7c7 !important;
+}
+.tab-dept-KRW{
+	width:33.3% !important;
+}
+.tab-basic{
+	width:50%;
+}
+.coinsky-fixed-width-1400{
+	width:1400px;
+}
+.margin-0-auto{
+	margin:0 auto;
+}
+.inputbox-content{
+	width: 100%;
+	line-height:34px;
+	height:35px;
+	margin-bottom:20px;
+}
+.margin-left-170{
+	margin-left:170px;
+}
+.span-outline-grey{
+	border: solid 1px #c7c7c7;
+}
+.span-panel-header-title{
+	font-family: 'HYWUML';
+	font-size: 24px;
+	color: #182129;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 7px;
+	border-bottom: solid 2px #182129;
+}
+.text-align-center{
+	text-align: center;
+}
+.padding-10{
+	padding: 10px;
+}
+.no-boder{
+	border: 0px;
+}
+.no-border-top{
+	border-top: 0px;
+}
+.padding-left-right-10{
+	padding-left: 10px;
+	padding-right: 10px;
+}

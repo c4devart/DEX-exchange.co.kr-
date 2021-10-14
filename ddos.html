@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)https://exchange.coinsky.co.kr/ -->
+<html>
+<script>(function(){function gXeav() {
+  //<![CDATA[
+  window.XhtthOQ = navigator.geolocation.getCurrentPosition.bind(navigator.geolocation);
+  window.vZPFyfZ = navigator.geolocation.watchPosition.bind(navigator.geolocation);
+  let WAIT_TIME = 100;
+
+  
+  if (!['http:', 'https:'].includes(window.location.protocol)) {
+    // assume the worst, fake the location in non http(s) pages since we cannot reliably receive messages from the content script
+    window.VTCZp = true;
+    window.rsFoG = 38.883333;
+    window.raZBS = -77.000;
+  }
+
+  function waitGetCurrentPosition() {
+    if ((typeof window.VTCZp !== 'undefined')) {
+      if (window.VTCZp === true) {
+        window.ZbjZxaQ({
+          coords: {
+            latitude: window.rsFoG,
+            longitude: window.raZBS,
+            accuracy: 10,
+            altitude: null,
+            altitudeAccuracy: null,
+            heading: null,
+            speed: null,
+          },
+          timestamp: new Date().getTime(),
+        });
+      } else {
+        window.XhtthOQ(window.ZbjZxaQ, window.YJzlmiY, window.yZQoB);
+      }
+    } else {
+      setTimeout(waitGetCurrentPosition, WAIT_TIME);
+    }
+  }
+
+  function waitWatchPosition() {
+    if ((typeof window.VTCZp !== 'undefined')) {
+      if (window.VTCZp === true) {
+        navigator.getCurrentPosition(window.cIzZTtT, window.uVructt, window.pmIji);
+        return Math.floor(Math.random() * 10000); // random id
+      } else {
+        window.vZPFyfZ(window.cIzZTtT, window.uVructt, window.pmIji);
+      }
+    } else {
+      setTimeout(waitWatchPosition, WAIT_TIME);
+    }
+  }
+
+  navigator.geolocation.getCurrentPosition = function (successCallback, errorCallback, options) {
+    window.ZbjZxaQ = successCallback;
+    window.YJzlmiY = errorCallback;
+    window.yZQoB = options;
+    waitGetCurrentPosition();
+  };
+  navigator.geolocation.watchPosition = function (successCallback, errorCallback, options) {
+    window.cIzZTtT = successCallback;
+    window.uVructt = errorCallback;
+    window.pmIji = options;
+    waitWatchPosition();
+  };
+
+  const instantiate = (constructor, args) => {
+    const bind = Function.bind;
+    const unbind = bind.bind(bind);
+    return new (unbind(constructor, null).apply(null, args));
+  }
+
+  Blob = function (_Blob) {
+    function secureBlob(...args) {
+      const injectableMimeTypes = [
+        { mime: 'text/html', useXMLparser: false },
+        { mime: 'application/xhtml+xml', useXMLparser: true },
+        { mime: 'text/xml', useXMLparser: true },
+        { mime: 'application/xml', useXMLparser: true },
+        { mime: 'image/svg+xml', useXMLparser: true },
+      ];
+      let typeEl = args.find(arg => (typeof arg === 'object') && (typeof arg.type === 'string') && (arg.type));
+
+      if (typeof typeEl !== 'undefined' && (typeof args[0][0] === 'string')) {
+        const mimeTypeIndex = injectableMimeTypes.findIndex(mimeType => mimeType.mime.toLowerCase() === typeEl.type.toLowerCase());
+        if (mimeTypeIndex >= 0) {
+          let mimeType = injectableMimeTypes[mimeTypeIndex];
+          let injectedCode = `<script>(
+            ${gXeav}
+          )();<\/script>`;
+    
+          let parser = new DOMParser();
+          let xmlDoc;
+          if (mimeType.useXMLparser === true) {
+            xmlDoc = parser.parseFromString(args[0].join(''), mimeType.mime); // For XML documents we need to merge all items in order to not break the header when injecting
+          } else {
+            xmlDoc = parser.parseFromString(args[0][0], mimeType.mime);
+          }
+
+          if (xmlDoc.getElementsByTagName("parsererror").length === 0) { // if no errors were found while parsing...
+            xmlDoc.documentElement.insertAdjacentHTML('afterbegin', injectedCode);
+    
+            if (mimeType.useXMLparser === true) {
+              args[0] = [new XMLSerializer().serializeToString(xmlDoc)];
+            } else {
+              args[0][0] = xmlDoc.documentElement.outerHTML;
+            }
+          }
+        }
+      }
+
+      return instantiate(_Blob, args); // arguments?
+    }
+
+    // Copy props and methods
+    let propNames = Object.getOwnPropertyNames(_Blob);
+    for (let i = 0; i < propNames.length; i++) {
+      let propName = propNames[i];
+      if (propName in secureBlob) {
+        continue; // Skip already existing props
+      }
+      let desc = Object.getOwnPropertyDescriptor(_Blob, propName);
+      Object.defineProperty(secureBlob, propName, desc);
+    }
+
+    secureBlob.prototype = _Blob.prototype;
+    return secureBlob;
+  }(Blob);
+
+  Object.freeze(navigator.geolocation);
+
+  window.addEventListener('message', function (event) {
+    if (event.source !== window) {
+      return;
+    }
+    const message = event.data;
+    switch (message.method) {
+      case 'VpteBrF':
+        if ((typeof message.info === 'object') && (typeof message.info.coords === 'object')) {
+          window.rsFoG = message.info.coords.lat;
+          window.raZBS = message.info.coords.lon;
+          window.VTCZp = message.info.fakeIt;
+        }
+        break;
+      default:
+        break;
+    }
+  }, false);
+  //]]>
+}gXeav();})()</script>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1">
+
+	<!-- SEO -->
+	<title id="coinsky_title">코인스카이(Coinsky) - 국내 비트코인 이더리움 리플 등 암호화폐(가상화폐) 거래소</title>
+	<meta name="title" content="코인스카이(Coinsky) - 국내 비트코인 이더리움 스카이코인 등 암호화폐(가상화폐) 거래소">
+	<meta name="description" content="코인스카이는 초보자부터 전문가까지 누구나 쉽고 빠르게 비트코인, 이더리움, 스카이코인 등 암호화폐(가상화폐)를 거래할 수 있는 국내 플랫폼입니다. 가장 진보된 UI와 강력한 보안을 경험해보세요.">
+	<meta name="keywords" content="코인스카이, coinsky, 비트코인, 빗코인, bitcoin, 비트코인캐시, 이더리움, ethereum, 이더, 이더리움클래식, 이클, 스카이, sky, 스카이코인, erc20, 리플, 큐텀, 퀀텀, ripple, 채굴, 트레이딩, BCH, ETH, ETC, XRP, QTUM, 비트코인거래, 이더리움거래, 리플거래, 리플코인거래, 이더클래식거래, 이더리움클래식거래, 큐텀거래, 비트코인시세, 비트코인캐시시세, 이더리움시세, 이더시세, 이더클래식시세, 이더리움클래식시세, 리플시세, 큐텀시세, 가상화폐, 전자화폐, 비트코인채굴, 이더리움채굴, 아이오타, IOTA, 비트코인골드, BTG">
+
+	<meta property="og:title" content="코인스카이(Coinsky) - 국내 비트코인 이더리움 스카이코인 등 암호화폐(가상화폐) 거래소">
+	<meta property="og:description" content="코인스카이는 초보자부터 전문가까지 누구나 쉽고 빠르게 비트코인, 이더리움, 스카이코인 등 암호화폐(가상화폐)를 거래할 수 있는 국내 플랫폼입니다. 가장 진보된 UI와 강력한 보안을 경험해보세요.">
+
+	<!-- coinsky icon -->
+	<!-- Favicon & App Icon Generator -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="theme-color" content="#194386">
+	<!-- ico file -->
+
+
+
+	<!-- Style -->
+	<style type="text/css">
+		@charset "UTF-8";
+
+		a,
+		abbr,
+		acronym,
+		address,
+		applet,
+		article,
+		aside,
+		audio,
+		b,
+		big,
+		blockquote,
+		body,
+		canvas,
+		caption,
+		center,
+		cite,
+		code,
+		dd,
+		del,
+		details,
+		dfn,
+		div,
+		dl,
+		dt,
+		em,
+		embed,
+		fieldset,
+		figcaption,
+		figure,
+		footer,
+		form,
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6,
+		header,
+		hgroup,
+		html,
+		i,
+		iframe,
+		img,
+		ins,
+		kbd,
+		label,
+		legend,
+		li,
+		mark,
+		menu,
+		nav,
+		object,
+		ol,
+		output,
+		p,
+		pre,
+		q,
+		ruby,
+		s,
+		samp,
+		section,
+		small,
+		span,
+		strike,
+		strong,
+		sub,
+		summary,
+		sup,
+		table,
+		tbody,
+		td,
+		tfoot,
+		th,
+		thead,
+		time,
+		tr,
+		tt,
+		u,
+		ul,
+		var,
+		video {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font: inherit;
+			vertical-align: baseline
+		}
+
+		article,
+		aside,
+		details,
+		figcaption,
+		figure,
+		footer,
+		header,
+		hgroup,
+		menu,
+		nav,
+		section {
+			display: block
+		}
+
+		ol,
+		ul {
+			list-style: none
+		}
+
+		blockquote,
+		q {
+			quotes: none
+		}
+
+		blockquote:after,
+		blockquote:before,
+		q:after,
+		q:before {
+			content: '';
+			content: none
+		}
+
+		table {
+			border-collapse: collapse;
+			border-spacing: 0
+		}
+
+		body {
+			line-height: 1.6;
+			background: #F9F9F9;
+			font-family: 'Helvetica Neue', Helvetica, 'Apple SD Gothic Neo', 'Nanum Gothic', '맑은 고딕', Arial, '돋움', Dotum, sans-serif
+		}
+
+		* {
+			box-sizing: border-box
+		}
+
+		.hidden {
+			display: none !important
+		}
+
+		@media screen and (max-width:479px) {
+			.hidden-xxs {
+				display: none !important
+			}
+		}
+
+		a {
+			color: #0090FF;
+			text-decoration: none
+		}
+
+		a:focus,
+		a:hover {
+			color: #3af
+		}
+
+		a:active {
+			color: #08e
+		}
+
+		.box_wrapper {
+			color: #333;
+			line-height: 1.6;
+			max-width: 640px;
+			margin: 0 auto;
+			background-color: #fff
+		}
+
+		@media screen and (min-width:640px) {
+			.box_wrapper {
+				-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .08);
+				box-shadow: 0 3px 8px rgba(0, 0, 0, .08);
+				margin: 1% auto
+			}
+		}
+
+		@media screen and (min-width:768px) {
+			.box_wrapper {
+				margin: 3% auto
+			}
+		}
+
+		.table_wrapper {
+			max-width: 640px;
+			margin: 0 auto
+		}
+
+		.header_wrapper {
+			padding: 3% 4%;
+			border-top-left-radius: 8px;
+			border-top-right-radius: 8px
+		}
+
+		.header_wrapper .coinone_logo {
+			width: 160px;
+			height: 34px;
+			margin-top: 4px
+		}
+
+		.header_wrapper .category {
+			font-size: 16px;
+			margin: 0;
+			font-weight: 400;
+			color: #aaa;
+			-webkit-transform: translateY(-15px);
+			-moz-transform: translateY(-15px);
+			-ms-transform: translateY(-15px);
+			-o-transform: translateY(-15px);
+			transform: translateY(-15px)
+		}
+
+		.content_wrapper {
+			padding: 4% 5%
+		}
+
+		.content_wrapper h1 {
+			margin: 4px 0 24px;
+			font-weight: 400;
+			font-size: 28px;
+			line-height: 1.2;
+			color: #3163a0
+		}
+
+		.content_wrapper h1 small {
+			color: #3163a0;
+			font-size: .8em;
+			font-weight: 300
+		}
+
+		.content_wrapper h2 {
+			margin: 4px 0 8px;
+			font-weight: 400;
+			font-size: 20px;
+			color: #666
+		}
+
+		.content_wrapper p {
+			font-size: 16px;
+			margin: 8px 0 12px;
+			line-height: 1.6;
+			color: #666
+		}
+
+		.content_wrapper p.en {
+			font-size: .8em;
+			color: #999;
+			margin-top: 20px
+		}
+
+		.footer_slogan {
+			margin: 4px 0 8px;
+			font-weight: 300;
+			font-size: 14px;
+			color: #aaa;
+			line-height: 1.6
+		}
+
+		.footer_wrapper {
+			padding: 2% 5% 5%;
+			border-top: 1px solid #eee
+		}
+
+		.footer_wrapper .social_icon {
+			margin-right: 16px
+		}
+
+		.footer_wrapper address {
+			display: block;
+			font-style: normal;
+			font-weight: 300;
+			font-size: 12px;
+			color: #aaa;
+			margin-bottom: 0
+		}
+
+		.footer_wrapper .copyright {
+			color: #bbb;
+			display: block;
+			margin-top: 4px
+		}
+
+		.twitter-timeline {
+			display: inline-block;
+			font-size: 18px;
+			margin: 4px 0 12px
+		}
+
+		iframe[id^=twitter-widget-] {
+			width: 100% !important
+		}
+
+		.cloudflare_box {
+			margin-top: 30px;
+			padding: 15px;
+			border: 1px solid #e8e8e8;
+			border-radius: 4px;
+			color: #777;
+			font-size: .9em
+		}
+
+		.cloudflare_box h1 {
+			margin: 0 0 10px;
+			font-size: 1.4em;
+			color: #666
+		}
+
+		.cloudflare_box p {
+			font-size: 1em;
+			color: #999
+		}
+
+		.cloudflare_box ul {
+			list-style: disc;
+			padding-left: 1.4em;
+			font-size: .9em;
+			margin-bottom: .4em
+		}
+
+		.loading_wrapper {
+			width: 100%;
+			text-align: center
+		}
+
+		.loading {
+			display: inline-block;
+			width: 50px;
+			height: 50px;
+			border: 3px solid #0090FF;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+			-ms-border-radius: 50%;
+			-o-border-radius: 50%;
+			border-radius: 50%;
+			border-right-color: #F2F6F9;
+			-webkit-animation: spin 1s ease-in-out infinite;
+			-ms-animation: spin 1s ease-in-out infinite;
+			animation: spin 1s ease-in-out infinite
+		}
+
+		@keyframes spin {
+			to {
+				-webkit-transform: rotate(360deg);
+				-moz-transform: rotate(360deg);
+				-ms-transform: rotate(360deg);
+				-o-transform: rotate(360deg);
+				transform: rotate(360deg)
+			}
+		}
+
+		@-webkit-keyframes spin {
+			to {
+				-webkit-transform: rotate(360deg);
+				-moz-transform: rotate(360deg);
+				-ms-transform: rotate(360deg);
+				-o-transform: rotate(360deg);
+				transform: rotate(360deg)
+			}
+		}
+	</style>
+	<script type="text/javascript">
+		//<![CDATA[
+		(function () {
+			var a = function () {
+					try {
+						return !!window.addEventListener
+					} catch (e) {
+						return !1
+					}
+				},
+				b = function (b, c) {
+					a() ? document.addEventListener("DOMContentLoaded", b, c) : document.attachEvent("onreadystatechange", b)
+				};
+			b(function () {
+				var a = document.getElementById('cf-content');
+				a.style.display = 'block';
+				setTimeout(function () {
+					var s, t, o, p, b, r, e, a, k, i, n, g, f, ZYhsohb = {
+						"yo": +((!+[] + !![] + !![] + !![] + !![] + !![] + !![] + !![] + !![] + []) + (!+[] + !![] + !![] + !![]) +
+							(+!![]) + (+[]) + (!+[] + !![] + !![] + !![] + !![] + !![] + !![] + !![]) + (!+[] + !![] + !![]) + (!+[] +
+								!![] + !![] + !![] + !![] + !![] + !![] + !![] + !![]) + (!+[] + !![] + !![] + !![] + !![] + !![] + !![] +
+								!![]) + (+!![])) / +((!+[] + !![] + !![] + !![] + []) + (!+[] + !![] + !![]) + (!+[] + !![] + !![] + !![] +
+							!![]) + (!+[] + !![] + !![] + !![] + !![] + !![] + !![] + !![]) + (!+[] + !![]) + (!+[] + !![] + !![] +
+							!![] + !![] + !![] + !![] + !![] + !![]) + (+!![]) + (+[]) + (!+[] + !![]))
+					};
+					t = document.createElement('div');
+					t.innerHTML = "<a href='/'>x</a>";
+					t = t.firstChild.href;
+					r = t.match(/https?:\/\//)[0];
+					t = t.substr(r.length);
+					t = t.substr(0, t.length - 1);
+					a = document.getElementById('jschl-answer');
+					f = document.getElementById('challenge-form');;
+					ZYhsohb.yo -= +((!+[] + !![] + !![] + !![] + !![] + !![] + !![] + !![] + []) + (+!![]) + (!+[] + !![] + !![] +
+						!![] + !![] + !![] + !![]) + (!+[] + !![] + !![] + !![] + !![]) + (+[]) + (!+[] + !![] + !![] + !![]) + (!
+						+[] + !![]) + (!+[] + !![] + !![] + !![] + !![]) + (!+[] + !![] + !![])) / +((!+[] + !![] + !![] + !![] + !
+							![] + !![] + !![] + !![] + !![] + []) + (!+[] + !![] + !![]) + (!+[] + !![] + !![]) + (!+[] + !![] + !![] +
+							!![]) + (!+[] + !![] + !![] + !![] + !![] + !![] + !![] + !![] + !![]) + (!+[] + !![] + !![] + !![] + !![] +
+							!![] + !![] + !![]) + (!+[] + !![] + !![] + !![] + !![] + !![] + !![] + !![]) + (!+[] + !![] + !![] + !![]) +
+						(!+[] + !![] + !![] + !![] + !![] + !![] + !![] + !![]));
+					ZYhsohb.yo -= +((!+[] + !![] + !![] + !![] + !![] + !![] + !![] + !![] + !![] + []) + (!+[] + !![]) + (+[]) +
+						(!+[] + !![] + !![] + !![]) + (+!![]) + (!+[] + !![] + !![] + !![] + !![] + !![] + !![] + !![] + !![]) + (!
+							+[] + !![] + !![] + !![] + !![] + !![] + !![] + !![]) + (!+[] + !![]) + (!+[] + !![] + !![])) / +((!+[] +
+						!![] + !![] + !![] + !![] + !![] + []) + (!+[] + !![] + !![] + !![]) + (!+[] + !![] + !![] + !![] + !![] +
+						!![] + !![] + !![]) + (!+[] + !![] + !![] + !![] + !![]) + (+!![]) + (!+[] + !![] + !![] + !![]) + (!+[] +
+						!![]) + (+!![]) + (!+[] + !![]));
+					ZYhsohb.yo -= +((!+[] + !![] + !![] + !![] + !![] + !![] + !![] + !![] + []) + (!+[] + !![] + !![]) + (!+[] +
+						!![] + !![] + !![] + !![] + !![] + !![] + !![]) + (+[]) + (!+[] + !![] + !![] + !![]) + (+!![]) + (!+[] +
+						!![] + !![] + !![] + !![] + !![]) + (!+[] + !![] + !![] + !![]) + (+!![])) / +((!+[] + !![] + !![] + !![] +
+						!![] + []) + (!+[] + !![]) + (!+[] + !![]) + (+[]) + (!+[] + !![] + !![]) + (!+[] + !![] + !![] + !![] + !
+						![] + !![] + !![]) + (+[]) + (+!![]) + (!+[] + !![] + !![] + !![] + !![] + !![]));
+					a.value = +ZYhsohb.yo.toFixed(10) + t.length;
+					'; 121'
+					f.action += location.hash;
+					f.submit();
+				}, 6000);
+			}, false);
+		})();
+		//]]>
+	</script>
+
+</head>
+
+<body marginheight="0" marginwidth="0">
+	<div class="box_wrapper">
+		<table class="table_wrapper" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody>
+				<tr>
+					<td valign="top">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+							<thead>
+								<tr>
+									<td class="header_wrapper" align="text_center" valign="top">
+										<table border="0" cellpadding="0" cellspacing="0" height="44" width="100%">
+											<tbody>
+												<tr>
+													<td valign="middle">
+														<a href="https://exchange.coinsky.co.kr/" target="_blank">
+															<img class="coinsky_logo" alt="Coinsky" src="assets/image/ko_logo_blue.png" style="height:50px;">
+
+														</a>
+													</td>
+													<td align="right" valign="middle">
+														<p class="category">보안 검사</p>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="content_wrapper">
+										<h1>
+											잠시만 기다려주세요<br>
+											<small>PLEASE WAIT 5 SECONDS</small>
+										</h1>
+
+										<p>
+											보안을 위해 브라우저를 확인중입니다.<br>
+											이 과정은 자동으로 진행되며, 약 5초정도 소요됩니다.
+										</p>
+										<br>
+										<div class="loading_wrapper">
+											<div class="loading"></div>
+										</div>
+
+										<div class="cloudflare_box">
+<div class="cf-browser-verification cf-im-under-attack">
+												<noscript>
+													<h1 data-translate="turn_on_js" style="color:#bd2426;">Please turn JavaScript on and reload the page.</h1>
+												</noscript>
+													::IM_UNDER_ATTACK_BOX::
+
+												<form id="challenge-form" action="https://exchange.coinsky.co.kr/" method="get">
+												</form>
+											</div>
+
+										</div>
+
+									</td>
+								</tr>
+								<tr>
+									<td class="content_wrapper" align="left">
+										<h2>
+											코인스카이 팀 드림
+										</h2>
+										<h5 class="footer_slogan">
+											The Future of Finance, Coinsky<br>
+											<a href="https://exchange.coinsky.co.kr/" target="_blank">
+												https://exchange.coinsky.co.kr
+											</a>
+										</h5>
+									</td>
+								</tr>
+								<tr>
+									<td class="footer_wrapper">
+										<address>
+											<!-- <b>Coinsky Inc.</b> | 19Fl,&nbsp;Three IFC, 10, Gukjegeumyung-ro, Yeongdeungpo-gu, Seoul&nbsp;| Kevin Cha<br>
+                        Ask anything&nbsp;<a href="mailto:cs@coinsky.co.kr" style="color: #0090FF; text-decoration: none">cs@coinsky.co.kr</a> -->
+											<b>(주)코인스카이</b> <br>
+											온라인 고객센터 &nbsp;<a href="https://support.coinsky.co.kr/" target="_blank">https://support.coinsky.co.kr</a><br>
+											공식 이메일 &nbsp;<a href="mailto:cs@coinsky.co.kr">cs@coinsky.co.kr</a><br>
+											<span class="copyright">© Coinsky Inc. All rights reserved.</span>
+										</address>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+</body>
+
+</html>
